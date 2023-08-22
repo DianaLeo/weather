@@ -14,7 +14,15 @@
     <div class="container">
         <h1>Weather App</h1>
         <form action="">
-            <input type="text" id="city-input" placeholder="Enter City">
+            <fieldset>
+                <input type="text" id="city-input" placeholder="Enter City">
+            </fieldset>
+            <fieldset>
+                <input type="button" id="fetch" value="Fetch">
+                <input type="button" id="xmlHttpRequest" value="XMLHttpRequest">
+                <input type="button" id="axios" value="Axios">
+            </fieldset>
+
             <input type="submit" value="Get Weather">
         </form>
         <div id="weather-data">
