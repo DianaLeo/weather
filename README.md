@@ -11,4 +11,4 @@ Data is fetched from openweathermap API, with three methods:
 - Axios with async/await
 
 
-![displaying_page]('screenshot.jpg')
+![displaying_page](./screenshot.jpg)
