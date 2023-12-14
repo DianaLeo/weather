@@ -51,7 +51,7 @@ async function getWeatherData(url) {
 }
 
 
-//XMLHttpRequest
+//XMLHttpRequest=AJAX
 function getWeatherData2(url) {
     const xhttp = new XMLHttpRequest();
     if (!xhttp) {
